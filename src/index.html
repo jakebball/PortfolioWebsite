@@ -1,5 +1,5 @@
 
-<html?>
+<html class="scroll-smooth">
     <head>
         <link href="/dist/output.css" rel="stylesheet">
         <link href="./Images/favicon.ico" rel="icon">
@@ -10,15 +10,45 @@
     </head>
 
     <body>
-        
-        <div class="h-screen w-28 fixed bg-white opacity-50 shadow-2xl">
-            
+
+        <!--
+            NAVBAR
+        --> 
+        <div class="h-screen w-28 fixed bg-white shadow-2xl bg-opacity-30">
+            <div class="h-32 w-full flex flex-col items-center justify-center">
+                <a class="h-20 w-20" href="https://www.roblox.com/users/1242035307/profile">
+                    <img src="./Images/logo.png" class="h-full w-full aspect-square rounded-2xl"/>
+                </a>
+            </div>
+
+            <div class="h-full w-full flex flex-col items-center justify-center">
+                <div class="h-full w-full flex flex-col items-center justify-center mb-32 gap-16">
+                    <a class="h-24 w-full" href="#aboutme">
+                        <img src="./FontAwesome/regular/user.svg" class="h-full w-full aspect-square rounded-2x opacity-50"/>
+                    </a>
+
+                    <a class="h-24 w-full" href="#experience">
+                        <img src="./FontAwesome/solid/briefcase.svg" class="h-full w-full aspect-square rounded-2x opacity-50"/>
+                    </a>
+
+                    <a class="h-24 w-full" href="#skills">
+                        <img src="./FontAwesome/solid/screwdriver-wrench.svg" class="h-full w-full aspect-square rounded-2x opacity-50"/>
+                    </a>
+
+                    <a class="h-24 w-full" href="#contactme">
+                        <img src="./FontAwesome/regular/envelope.svg" class="h-full w-full aspect-square rounded-2x opacity-50"/>
+                    </a>
+                </div>
+            </div>
         </div>
-        
+
+        <!--
+            ABOUT ME PAGE
+        --> 
         <img src="./Images/Background.jpg" class="w-full h-full absolute -z-10">
 
-        <div class="w-[calc(100%_-_7rem)] h-screen flex justify-center items-center ml-28 flex-col">
-            <div class="w-1/2 h-38 grid gap-10">
+        <div id="aboutme" class="w-[calc(100%_-_7rem)] h-screen flex justify-center items-center ml-28 flex-col snap-both">
+            <div class="w-1/2 h-38 grid gap-10 snap-center">
                 <h1 class="w-full h-full text-center font-nunito font-bold text-8xl text-white">
                     Hello There<span class="animate-ping">_</span>
                 </h1>
@@ -29,6 +59,8 @@
                 </p>
             </div>
         </div>
+
+        <img src="./Images/Background.jpg" class="w-full h-full absolute -z-10">
 
     </body>
 </html> 
