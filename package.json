@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/jakebball/PortfolioWebsite.git",
+  "homepage": "https://jakebball.github.io/PortfolioWebsite/",
   "scripts": {
     "build": "tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
     "predeploy": "npm run build",
